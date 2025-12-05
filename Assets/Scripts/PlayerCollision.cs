@@ -19,5 +19,14 @@ public class PlayerCollision : MonoBehaviour
         {
             gameManager.GameOver();
         }
+        else if (collision.CompareTag("Enemy"))
+        {
+            gameManager.GameOver();
+        }
+        else if (collision.CompareTag("Key"))
+        {
+            Destroy(collision.gameObject);
+            gameManager.WinGame();
+        }
     }
 }

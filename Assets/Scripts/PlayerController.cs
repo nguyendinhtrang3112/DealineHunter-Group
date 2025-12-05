@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (gameManager.IsGameOver())
+        if (gameManager.IsGameOver() || gameManager.IsWin())
         {
             return; // Nếu game over thì không cho di chuyển nữa
         }

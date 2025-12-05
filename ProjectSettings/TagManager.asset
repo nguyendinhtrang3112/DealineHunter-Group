@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Coin
   - Trap
+  - Enemy
+  - Key
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Key
   - 
   - 
   - 
@@ -51,6 +53,9 @@ TagManager:
     locked: 0
   - name: ForeGround
     uniqueID: 2303635665
+    locked: 0
+  - name: Enemy
+    uniqueID: 2671061313
     locked: 0
   - name: Player
     uniqueID: 3860516257
