@@ -53,6 +53,14 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("Game");
     }
+    public void RestartGame3()
+    {
+        isGameOver = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Level3");
+    }
     public void GotoMenu()
     {
         SceneManager.LoadScene("Menu");
