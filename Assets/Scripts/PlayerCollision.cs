@@ -10,7 +10,7 @@ public class PlayerCollision : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Coin"))
+        if (collision.CompareTag("Coin") || collision.CompareTag("Book"))
         {   
             Destroy(collision.gameObject);
             gameManager.AddScore(1);
