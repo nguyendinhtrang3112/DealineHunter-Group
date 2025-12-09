@@ -55,6 +55,14 @@ public class GameManager : MonoBehaviour
         int currentIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadSceneAsync(currentIndex);
     }
+    public void RestartGame3()
+    {
+        isGameOver = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Level3");
+    }
     public void GotoMenu()
     {
         Time.timeScale = 1;
