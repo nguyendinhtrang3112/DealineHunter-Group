@@ -19,7 +19,7 @@ Nhiệm vụ của bạn là vượt qua các cám dỗ (Game, MXH), thu thập 
 ---
 
 ## 👥 Nhóm Thực Hiện (Team 13)
-### Giáo Viên Hướng dẫn: Đinh Bảo Ngọc
+Giáo Viên Hướng dẫn: **Đinh Bảo Ngọc**
 
 | STT | Họ và Tên            | Mã Sinh Viên  | Vai trò                        |
 |:---:|----------------------|:-------------:|--------------------------------|
