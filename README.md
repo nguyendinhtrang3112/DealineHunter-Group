@@ -14,7 +14,7 @@ Nhiệm vụ của bạn là vượt qua các cám dỗ (Game, MXH), thu thập 
 
 - 🏃 **Chạy & Nhảy:** Vượt qua chướng ngại vật địa hình.  
 - 📚 **Thu thập:** Gom đủ số lượng **Sách/Laptop** để mở khóa màn mới.  
-- ❤️ **Sinh tồn:** Giữ thanh năng lượng không về 0 khi va chạm với kẻ thù hoặc bẫy.
+- ❤️ **Sinh tồn:** Giữ sự tỉnh táo không về 0 khi va chạm với kẻ thù hoặc bẫy.
 
 ---
 
@@ -23,9 +23,9 @@ Giáo Viên Hướng dẫn: **Đinh Bảo Ngọc**
 
 | STT | Họ và Tên            | Mã Sinh Viên  | Vai trò                        |
 |:---:|----------------------|:-------------:|--------------------------------|
-| 1   | **Phan Thanh Tú**    | 2221050845    | Trưởng nhóm, Gameplay, AI Logic |
-| 2   | **Nguyễn Đình Tráng**| 2221050306    | Level Design, UI/UX            |
-| 3   | **Nguyễn Đức Mạnh**  | 2221050617    | Artist, Asset Manager          |
+| 1   | **Phan Thanh Tú**    | 2221050845    | Level 2 |
+| 2   | **Nguyễn Đình Tráng**| 2221050306    | Level 1         |
+| 3   | **Nguyễn Đức Mạnh**  | 2221050617    | Level 3         |
 
 ---
 
