@@ -269,7 +269,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1698590707}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: GotoMenu
+        m_MethodName: NextLevel3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9122,7 +9122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Main Menu
+  m_text: NEXT LEVEL
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11113,7 +11113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1117322661
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12059,8 +12059,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -434451039
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 7650439872258283022, guid: 9bbc74689cda44646aa1ad422774df22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12648,6 +12648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09343c22c54dca94ead11960f8b12266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  door: {fileID: 0}
   scoreText: {fileID: 1129245330}
   gameOverUi: {fileID: 2029022640}
   winUi: {fileID: 1117322660}

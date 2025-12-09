@@ -68,6 +68,22 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("Level3");
     }
+    public void NextLevel2()
+    {
+        isWin = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Level2");
+    }
+    public void NextLevel3()
+    {
+        isWin = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Level3");
+    }
     public void GotoMenu()
     {
         Time.timeScale = 1;
