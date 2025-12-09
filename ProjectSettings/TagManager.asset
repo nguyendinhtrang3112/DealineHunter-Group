@@ -9,6 +9,8 @@ TagManager:
   - Enemy
   - Key
   - Book
+  - backgrounf
+  - door
   layers:
   - Default
   - TransparentFX
@@ -19,7 +21,7 @@ TagManager:
   - Ground
   - Key
   - 
-  - 
+  - coin
   - 
   - 
   - 
@@ -43,11 +45,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: BackGround
     uniqueID: 1809196087
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Ground
     uniqueID: 258491045
@@ -66,6 +68,9 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2913869701
+    locked: 0
+  - name: coin
+    uniqueID: 1421510727
     locked: 0
   m_RenderingLayers:
   - Default

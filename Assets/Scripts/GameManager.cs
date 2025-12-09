@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine.SceneManagement;  
 public class GameManager : MonoBehaviour
 {
+    public GameObject door;
     private int score = 0;
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private GameObject gameOverUi;
@@ -21,6 +22,10 @@ public class GameManager : MonoBehaviour
         {
             score += points;
             UpdateScore();
+            if (score >= 8)
+            {
+                door.SetActive(false);
+            }
         }
     }
 
