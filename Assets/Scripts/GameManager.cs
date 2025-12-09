@@ -51,12 +51,15 @@ public class GameManager : MonoBehaviour
         score = 0;
         UpdateScore();
         Time.timeScale = 1;
-        SceneManager.LoadScene("Game");
+        
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadSceneAsync(currentIndex);
     }
     public void GotoMenu()
     {
-        SceneManager.LoadScene("Menu");
         Time.timeScale = 1;
+        int currentIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadSceneAsync(currentIndex);
     }
     public bool IsGameOver()
     {
