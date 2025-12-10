@@ -3,6 +3,8 @@ using TMPro;
 using UnityEngine.SceneManagement;  
 public class GameManager : MonoBehaviour
 {
+    public GameObject PauseMenu;
+    private bool isPaused = false;
     public GameObject door;
     private int score = 0;
     [SerializeField] private TextMeshProUGUI scoreText;
@@ -15,6 +17,42 @@ public class GameManager : MonoBehaviour
         UpdateScore();
         gameOverUi.SetActive(false);   
         winUi.SetActive(false);
+    }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
+    }
+
+    public void PauseGame()
+    {
+        PauseMenu.SetActive(true);
+        Time.timeScale = 0f; 
+        isPaused = true;
+    }
+
+    public void ResumeGame()
+    {
+        PauseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
+    }
+    public void QuitGame()
+    {
+    #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+    #else
+        Application.Quit();
+    #endif
     }
     public void AddScore(int points)
     {
